@@ -9,7 +9,6 @@ HEADER = 64
 PORT = 5096
 FORMAT = 'UTF-8'
 SERVER = '138.68.140.83'
-# SERVER = socket.gethostname()
 ADDR = (SERVER, PORT)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(ADDR)
